@@ -8,10 +8,12 @@ node_modules
 # testing
 coverage
 
-# next.js
-.nuxt
-nuxt.d.ts
+# nuxt dev/build outputs
 .output
+.nuxt
+.nitro
+.cache
+dist
 
 # misc
 .DS_Store

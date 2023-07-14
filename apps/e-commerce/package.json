@@ -1,0 +1,13 @@
+{
+  "name": "e-commerce",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@types/node": "^18.16.19",
+    "nuxt": "^3.6.2"
+  }
+}

@@ -4,9 +4,9 @@
   "version": "0.0.1",
   "main": "./nuxt.config.ts",
   "scripts": {
-    "dev:sb": "nuxi dev .docs",
+    "dev:docs": "nuxi dev .docs",
     "lint": "eslint .",
-    "prepare": "nuxt prepare .docs"
+    "postinstall": "nuxt prepare .docs"
   },
   "devDependencies": {
     "@nuxt/eslint-config": "^0.1.1",

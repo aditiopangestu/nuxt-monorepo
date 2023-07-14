@@ -5,7 +5,7 @@
     "dev": "turbo run dev",
     "dev:docs": "turbo run dev:docs",
     "format": "prettier --write \"**/*.{js,ts,vue,md}\"",
-    "prepare": "turbo run prepare"
+    "postinstall": "turbo run postinstall"
   },
   "devDependencies": {
     "@turbo/gen": "^1.9.7",

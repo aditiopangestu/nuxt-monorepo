@@ -14,9 +14,9 @@
       "cache": false,
       "persistent": true
     },
-    "prepare": {
-      "dependsOn": ["^prepare"],
-      "outputs": [".nuxt"]
+    "postinstall": {
+      "dependsOn": ["^postinstall"],
+      "outputs": [".nuxt/**", ".docs/.nuxt/**"]
     }
   }
 }
