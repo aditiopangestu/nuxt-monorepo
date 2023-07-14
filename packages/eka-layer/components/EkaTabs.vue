@@ -1,12 +1,12 @@
 <template>
-  <div class="w-full max-w-md px-2 py-16 sm:px-0">
+  <div class="w-full max-w-md p-2 mx-auto sm:px-0">
     <TabGroup>
       <TabList class="flex space-x-1 rounded-xl bg-primary-900/20 p-1">
         <Tab
           v-for="category in Object.keys(categories)"
           as="template"
           :key="category"
-          v-slot="{ selected }"
+          v-slot="{ selected } : { selected: boolean }"
         >
           <button
             :class="[
@@ -66,11 +66,11 @@
   </div>
 </template>
 
-<script setup>
+<script lang="ts" setup>
 import { TabGroup, TabList, Tab, TabPanels, TabPanel } from '@headlessui/vue'
 
 const categories = ref({
-  Recent: [
+  "Recent": [
     {
       id: 1,
       title: 'Does drinking coffee make you smarter?',

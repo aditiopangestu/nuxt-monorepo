@@ -8,6 +8,7 @@
   },
   "devDependencies": {
     "@types/node": "^18.16.19",
+    "eka-layer": "*",
     "nuxt": "^3.6.2"
   }
 }
