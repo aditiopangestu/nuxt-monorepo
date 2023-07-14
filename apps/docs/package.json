@@ -1,0 +1,17 @@
+{
+  "name": "docs",
+  "private": true,
+  "scripts": {
+    "build": "histoire build",
+    "dev": "histoire dev",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@histoire/plugin-nuxt": "^0.16.2",
+    "@histoire/plugin-vue": "^0.16.1",
+    "@types/node": "^18.16.19",
+    "eka-layer": "*",
+    "histoire": "^0.16.2",
+    "nuxt": "^3.6.2"
+  }
+}
